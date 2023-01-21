@@ -1,0 +1,1 @@
+добавила list comprehention и lambda
