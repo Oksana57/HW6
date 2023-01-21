@@ -8,6 +8,5 @@ print(alist)
 j =int(input('Введите номер позиции 1: '))
 k=int(input('Введите номер позиции 2: '))
 f=lambda j, k: alist[j]*alist[k]
-
 print(f( j, k))
 
