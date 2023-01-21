@@ -4,13 +4,21 @@
 # - 0,56 -> 11
 
 num = float(input('Введите вещественное число: '))
-num = num*(10**5)
+
+str1=str(num)
+print(str1)
+str1=str1.replace('.','')
+
+print(str1)
+a=int(str1)
+print(a)
 sum = 0
 
-f=lambda num: num%10
-
-while num >0:
-    sum = sum + num%10
-    num = num//10
+while a >0:
+    sum = sum + a%10
+    a = a//10
 print(round(sum, 2))
+
+
+
 
